@@ -2,9 +2,17 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='store.css')}}">
 </head>
 <body>
 
+	 <div class="card">
+	  <img src="jeans3.jpg" alt="Denim Jeans" style="width:100%">
+	  <h1>Tailored Jeans</h1>
+	  <p class="price">$19.99</p>
+	  <p>Some text about the jeans..</p>
+	  <p><button><a href=" {{url_for('cart')}} ">Add to cart</a></button></p>
+	</div> 
 
 </body>
 </html>
